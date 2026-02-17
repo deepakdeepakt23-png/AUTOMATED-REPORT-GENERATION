@@ -1,15 +1,20 @@
 # AUTOMATED-REPORT-GENERATION
 
-PROJECT DESCRIPTION :
-The Automated Report Generation System is a Python-based project that is designed to generate reports automatically using data stored in a file. In many companies and organizations, creating reports manually takes a lot of time and effort. People have to calculate totals, averages, and performance values by hand, which can also lead to mistakes. This project solves that problem by automating the entire report creation process.
-The main objective of this project is to develop a program that can read sales information from a CSV file and generate a professional report in PDF format. The report includes important calculations and visual representation in the form of a bar chart. This makes it easy to understand business performance quickly.
-In this project, the user provides a CSV file containing product details such as Product Name, Sales Amount, and Target Amount. The program reads this file using the Pandas library, which is used for handling and processing tabular data. After reading the file, the program analyzes the dataset and performs various calculations.
+PROJECT OVERVIEW :
 
-The program calculates the total sales, total target, and the achievement percentage, which shows how much of the target has been achieved. It also identifies the best-performing product, which is the product with the highest sales value. These calculations help in understanding overall sales performance.
+This project is an Automated Report Generation System developed using Python. The main objective of this project is to automatically generate a professional report from a dataset without manual calculations. The system reads sales data from a CSV file, performs analysis such as total sales, total target, best performing product, and achievement percentage, and then generates a well-formatted PDF report.
 
-After analysis, the program generates a bar chart using the Matplotlib library. The chart compares the sales and target values of all products. This graphical representation makes the report more attractive and helps users understand the performance visually.
+HOW TO WORKS :
 
-Finally, the system creates a PDF report using the ReportLab library. The PDF includes a summary section, a detailed table showing product-wise sales and target values, and the bar chart image. The report is saved as a PDF file so that it can be easily shared or printed.
+1.The user provides a CSV file containing product sales and target values.
+
+2.The Python program reads the dataset using Pandas.
+
+3.It calculates important statistics like -Total Sales,Total Target,Highest Sales Product,Sales Achievement Percentage
+
+4.A bar chart is generated using Matplotlib.
+
+5..Finally, a detailed PDF report is created using ReportLab, including summary, table data, and chart.
 
 TECHNOLOGIES USED :
 
