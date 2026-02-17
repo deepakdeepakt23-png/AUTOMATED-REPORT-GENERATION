@@ -42,10 +42,10 @@ TECHNOLOGIES USED :
 
 OUTPUT :
 
-chart.png (Sales vs Target graph)
-
-<img width="1000" height="500" alt="Image" src="https://github.com/user-attachments/assets/71fd2ee2-7611-4821-ac98-53a4aaa39db2" />
-
 report.pdf (Final automated report)
 
 [report.pdf](https://github.com/user-attachments/files/25360484/report.pdf)
+
+chart.png (Sales vs Target graph)
+
+<img width="1000" height="500" alt="Image" src="https://github.com/user-attachments/assets/71fd2ee2-7611-4821-ac98-53a4aaa39db2" />
