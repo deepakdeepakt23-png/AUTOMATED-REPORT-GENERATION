@@ -40,8 +40,9 @@ TECHNOLOGIES USED :
 
 5.ReportLab (For creating the PDF report)
 
-Output
+OUTPUT :
 
 chart.png (Sales vs Target graph)
 
 report.pdf (Final automated report)
+[report.pdf](https://github.com/user-attachments/files/25360484/report.pdf)
