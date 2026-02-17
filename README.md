@@ -19,9 +19,13 @@ This project is an Automated Report Generation System developed using Python. Th
 HOW TO WORKS :
 
 1.The user provides a CSV file containing product sales and target values.
+
 2.The Python program reads the dataset using Pandas.
-3.It calculates important statistics like -Total Sales,Total Target,Highest Sales Product,Sales Achievement Percentage
+
+3.It calculates important statistics like -Total Sales,Total Target,Highest Sales Product,Sales Achievement Percentage.
+
 4.A bar chart is generated using Matplotlib.
+
 5..Finally, a detailed PDF report is created using ReportLab, including summary, table data, and chart.
 
 TECHNOLOGIES USED :
