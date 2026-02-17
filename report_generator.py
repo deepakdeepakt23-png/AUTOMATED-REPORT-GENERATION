@@ -104,7 +104,7 @@ def generate_pdf(df, summary):
     c.drawString(50, 30, "Generated Automatically using Python + Matplotlib + ReportLab")
 
     c.save()
-    print("✅ Report Generated Successfully: report.pdf")
+    print(" Report Generated Successfully: report.pdf")
 
 
 if __name__ == "__main__":
@@ -115,4 +115,5 @@ if __name__ == "__main__":
         create_bar_chart(df)
         generate_pdf(df, summary)
     else:
-        print("❌ No report generated because CSV is empty.")
+        print(" No report generated because CSV is empty.")
+
